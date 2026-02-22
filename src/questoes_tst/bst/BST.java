@@ -1,13 +1,13 @@
-package bst;
+package questoes_tst.bst;
 
 import java.util.ArrayList;
 
 public class BST {
  
-    private Node root;
-    private int size;
+    Node root;
+    int size;
 
-    public BST(){
+    BST(){
     }
 
     public boolean isEmpty(){
