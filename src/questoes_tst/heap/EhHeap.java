@@ -14,6 +14,7 @@ public class EhHeap {
             entradaInt[i] = Integer.parseInt(entrada[i]);
 
         System.out.println(ehHeap(entradaInt));
+        scanner.close();
     }
 
     public static boolean ehHeap(int[] heap){
